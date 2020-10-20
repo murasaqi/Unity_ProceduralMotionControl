@@ -1,0 +1,12 @@
+{
+  "name": "com.murasaqi.procedural_motion_control",
+  "displayName": "Procedural Motion Control",
+  "version": "0.1.0",
+  "unity": "2019.3",
+  "description": "Procedural Motion Control",
+  "keywords": [
+    "Script",
+    "editorextensions"
+  ],
+  "unityRelease": "7f1"
+}

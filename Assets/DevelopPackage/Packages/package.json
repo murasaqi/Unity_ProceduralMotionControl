@@ -1,0 +1,10 @@
+﻿{
+  "name": "com.murasaqi.proceduralmotioncontrol",
+  "displayName": "ProceduralMotionControl",
+  "version": "0.1.0",
+  "unity": "2020.1",
+  "description": "description.",
+  "author": {
+    "name": "murasaqi"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "ProceduralMotionControl",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Timeline",
+        "Unity.Timeline.Editor",
+        "UnityEditor.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

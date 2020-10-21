@@ -46,7 +46,7 @@ public class ProceduralMotionControlMixerBehaviour : PlayableBehaviour
             // var endProgress = playableBehaviour.inverse ? 0f : 1f;
 
             var startProgress = playableBehaviour.inverse ? max: min;
-            Debug.Log(playableBehaviour.min);
+            // Debug.Log(playableBehaviour.min);
             var endProgress = playableBehaviour.inverse ? min: max;
             
             if (inputPort == (m_Clips.Count() - 1))

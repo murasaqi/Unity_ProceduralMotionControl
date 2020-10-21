@@ -7,8 +7,8 @@ using UnityEngine.Timeline;
 public class ProceduralMotionControlClip : PlayableAsset, ITimelineClipAsset
 {
     public ProceduralMotionControlBehaviour template = new ProceduralMotionControlBehaviour ();
-    public ExposedReference<ProceduralMotionManager> proceduralMotionManager;
-
+   public ExposedReference<ProceduralMotionManager> proceduralMotionManager;
+    // public bool inverse = false;
     public ClipCaps clipCaps
     {
         get { return ClipCaps.None; }
@@ -28,7 +28,10 @@ public class ProceduralMotionControlClip : PlayableAsset, ITimelineClipAsset
         var playable = ScriptPlayable<ProceduralMotionControlBehaviour>.Create (graph, template);
         // playable.SetDuration(0.1);
         ProceduralMotionControlBehaviour clone = playable.GetBehaviour ();
+        // clone.min = 0f;
+        // clone.max = 1f;
         clone.proceduralMotionManager = proceduralMotionManager.Resolve (graph.GetResolver ());
+        // clone.inverse = proceduralMotionManager.Resolve(graph.GetResolver());
         return playable;
     }
 }
